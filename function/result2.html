@@ -1,0 +1,34 @@
+
+<script src='result2.js'> </script>
+
+
+<script>
+
+let sid=1;
+let name='shiva';
+let standard='BE';
+let sub1=90;
+let sub2=94;
+let sub3=96;
+let sub4=88;
+let totalSubject=[sub1,sub2,sub3,sub4];
+
+
+let result = process(sub1,sub2,sub3,sub4); //argument -> call and sending value.
+
+document.write("ID: "+sid+ '<br/>' );
+document.write("NAME: "+ name + '<br/>' );
+document.write("STANDARD: "+standard + '<br/>');
+document.write("SUB-1: "+sub1 + '<br/>');
+document.write("SUB-2: "+sub2 + '<br/>');
+document.write("SUB-3: "+sub3 + '<br/>');
+document.write("SUB-4: "+sub4 + '<br/>');
+document.write("TOTAL: "+result.stu_total + '<br/>');
+document.write("AVERAGE: "+result.stu_average + '<br/>');
+document.write("RESULT: "+result.stu_result + '<br/>');
+document.write("GRADE: "+result.stu_grade + '<br/>');
+
+//console.log(name);
+
+
+</script>
